@@ -1,0 +1,20 @@
+title: Gladwin Yeo
+email: gladwinyjh@gmail.com
+description: >- 
+  Thoughts and Ramblings
+baseurl: "" 
+url: "gladwinyjh.github.io"
+github_username:  gladwinyjh
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+#Order of header pages
+header_pages:
+  - blog.markdown
+  - projects.markdown
+  - about.markdown

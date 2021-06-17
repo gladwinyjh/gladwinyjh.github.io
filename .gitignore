@@ -1,0 +1,7 @@
+_site
+_sass
+_drafts
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
