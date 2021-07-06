@@ -6,10 +6,22 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      Published: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+
+      <br>
+
+      <!-- If there is an update to the post -->
+      {%- if page.updated -%}
+        Last updated: <time class="dt-updated" datetime="{{ page.updated | date_to_xmlschema }}" itemprop="dateUpdated">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.updated | date: date_format }}
+        </time>
+      {%- endif -%}
+      
+      <!-- If there is an author mentioned to the post -->
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>

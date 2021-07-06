@@ -32,12 +32,12 @@ layout: default
     <a href="/projects/">See all projects</a>
   </p>
   
-  <hr class="solid">
+  <hr>
   <br>
 
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Writings" }}</h2>
     
     <ul class="post-list">
       {%- for post in site.categories.posts limit: 4 -%}
@@ -57,7 +57,7 @@ layout: default
     </ul>
   {%- endif -%}
   <p style="text-align:right;">
-    <a href="/blog/">See all blog posts</a>
+    <a href="/writings/">See all writings</a>
   </p>
 
 </div>
