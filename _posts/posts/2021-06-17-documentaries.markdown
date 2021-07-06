@@ -123,7 +123,7 @@ Some stuff that I thought were interesting from WW2:
 3. Switzerland's involvement in WW2
 
     <p align="center">
-        <img src="/assets/images/documentaries/switzerland.jpg" alt="Comment" height="120" width="450"/>
+        <img src="/assets/images/documentaries/switzerland.JPG" alt="Comment" height="120" width="450"/>
         <br>
         Screenshotted from <a href="https://www.youtube.com/watch?v=FILxoQyKzDg" target="_blank">America's 'War' Against Switzerland</a>
     </p>
