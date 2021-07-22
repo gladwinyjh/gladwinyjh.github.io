@@ -14,8 +14,8 @@ plugins:
 
 #Order of header pages
 header_pages:
-  - writings.markdown
   - projects.markdown
+  - writings.markdown
   - about.markdown
   
 # Google Analytics so I know no one reads my blog
