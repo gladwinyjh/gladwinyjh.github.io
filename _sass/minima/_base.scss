@@ -148,24 +148,26 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
+  @include relative-font-size(0.8375);
+  // border: 1px solid $grey-color-light;
+  border-radius: 10px;
+  // background-color: #eef;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 2px 2px;
 }
 
 pre {
-  padding: 8px 12px;
+  padding: 15px 15px;
   overflow-x: auto;
 
   > code {
     border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 5;
+    padding-left: 5;
   }
 }
 
