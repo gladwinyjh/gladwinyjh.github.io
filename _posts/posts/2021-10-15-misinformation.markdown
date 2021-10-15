@@ -2,7 +2,7 @@
 layout: post
 title:  "Misinformation"
 date: 2021-10-15 00:00:00 +0800
-# updated: 2021-06-19 20:14:51 +0800
+updated: 2021-10-15 20:14:51 +0800
 category: posts
 
 excerpt: Sieving what we read, see, and listen
@@ -14,7 +14,7 @@ excerpt: Sieving what we read, see, and listen
 </p>
 
 
-I find it highly problematic with the amount of misinformation that is rampant in today's media. Aren't we taught back when we were 13-14 years old that before formulating a **concrete** stance on a topic that we should:
+I find the rampant amount of misinformation present in today's media to be highly problematic. Aren't we taught back when we were 13-14 years old that before formulating a **concrete** stance on a topic that we should:
 
 
 1. Get information from credible and ideally primary sources from subject matter experts
