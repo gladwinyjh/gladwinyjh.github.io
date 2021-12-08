@@ -14,7 +14,7 @@ plugins:
 
 #Order of header pages
 header_pages:
-  - projects.markdown
+  # - projects.markdown
   - writings.markdown
   - about.markdown
   
